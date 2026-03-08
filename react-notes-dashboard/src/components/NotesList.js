@@ -12,7 +12,7 @@ function NotesList() {
                 {notes.map((note) => (
                     <li key={note.id} onClick={() => setSelectNote(note.id)}
                     style={{cursor: "pointer", padding: "5px"}}>
-                        {note.text};
+                        {note.text}
                     </li>
                 ))}
             </ul>
